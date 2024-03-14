@@ -1,7 +1,7 @@
 {
     "id": "org.kde.francis",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "francis",
     "finish-args": [
@@ -25,8 +25,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.11.0.tar.xz",
-                    "sha256": "05296c5afbe6804308bf9c0d2751f3b748b40d00fa784946d1dcdf3af4bffbad",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.0.1.tar.xz",
+                    "sha256": "9d013847efb0048c6a2799ee0ed281b14eee15314ac20d7fba853197e45f29b7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -47,21 +47,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/francis/francis-1.0.1.tar.xz",
-                    "sha256": "0fbb97fc6fe58001a2c740bb5876a5b489aad2d89b5d9210476f826f56aa50d4",
+                    "url": "https://download.kde.org/stable/francis/francis-1.1.0.tar.xz",
+                    "sha256": "741987edba4bbd9fead551c160ef48eefbba0cea0abaddf5701ee19006404d0f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 369512,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/francis/francis-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "535883b41f3729941e47f500f826ac2cc7a59aa1.patch"
                 }
             ]
         }
     ]
 }
-
