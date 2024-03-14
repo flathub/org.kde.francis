@@ -55,10 +55,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/francis/francis-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "535883b41f3729941e47f500f826ac2cc7a59aa1.patch"
                 }
             ]
         }
