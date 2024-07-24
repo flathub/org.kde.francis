@@ -1,0 +1,19 @@
+commit 4d5407a42e4871d66f4de4522fbbf83c35604550
+Author: Volker Krause <vkrause@kde.org>
+Date:   Sat Jun 29 17:53:00 2024 +0200
+
+    Fix link failure due to duplicated symbols in the unit test
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index bfb8544..ef80a98 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -2,7 +2,7 @@
+ # SPDX-License-Identifier: BSD-2-Clause
+ 
+ add_library(${CMAKE_PROJECT_NAME}_static STATIC)
+-target_sources(${CMAKE_PROJECT_NAME}_static PUBLIC
++target_sources(${CMAKE_PROJECT_NAME}_static PRIVATE
+     controller.cpp
+     controller.h
+ )
