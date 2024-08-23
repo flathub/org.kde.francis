@@ -47,18 +47,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/francis-24.05.2.tar.xz",
-                    "sha256": "3e1350cb43e64e88e26a0780c522d28b99d20afadc187893d92067e61ee9e96d",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/francis-24.08.0.tar.xz",
+                    "sha256": "d666a84b37e0e5f872905186b4fa6e2808b9c76cbaa85f213f999ba03e1fd8af",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/francis-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "fixlink.patch"
                 }
             ]
         }
