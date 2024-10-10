@@ -25,8 +25,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/francis-24.08.1.tar.xz",
-                    "sha256": "f6492cb18e5db06c6604d9d33b8e06046fb6654f0906b29c184331d3a2ec354d",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/francis-24.08.2.tar.xz",
+                    "sha256": "6b8cc7f38c24e14c2e797a62299d47099965b38e7205578e3206818c7922ae80",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
