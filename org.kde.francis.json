@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/francis-24.12.0.tar.xz",
-                    "sha256": "b16ae97a42ed20c4943c3213c91bfe7c691538d229331bd7b1624e700116a3f3",
+                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/francis-24.12.1.tar.xz",
+                    "sha256": "a29960ea1fad78a5b67ae21d36d2e7717599378bb8c223d7e45a8a508a73337e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
