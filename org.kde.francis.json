@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/francis-26.04.2.tar.xz",
-                    "sha256": "5c6aaca9e81cb2bf170992d507b921ae5f13ce1d65e212d052f13c1b12de804f",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/francis-26.04.3.tar.xz",
+                    "sha256": "21f82c93a8ccb68d3bb7781a9a7607555fff9e3ae47651ebb0a08bf492a91f69",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
